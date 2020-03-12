@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Button from '@material-ui/core/Button'
+import StyledButton from './Button';
+import { StylesProvider } from '@material-ui/styles';
 
 const SectionWrap = styled.div`
     height: 100vh;
@@ -12,11 +13,13 @@ const SectionWrap = styled.div`
 
 
 const Section = props => (
+    <StylesProvider injectFirst>
     <SectionWrap>
-        <Button variant="contained" color="primary">
+        <StyledButton>
             Hello World
-        </Button>
+        </StyledButton>
     </SectionWrap>
+    </StylesProvider>
 
 )
 
