@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Button from '@material-ui/core/Button'
 
 const SectionWrap = styled.div`
     height: 100vh;
@@ -12,7 +13,9 @@ const SectionWrap = styled.div`
 
 const Section = props => (
     <SectionWrap>
-
+        <Button variant="contained" color="primary">
+            Hello World
+        </Button>
     </SectionWrap>
 
 )
