@@ -15,7 +15,7 @@ const SectionWrap = styled.div`
 const Section = props => (
     <StylesProvider injectFirst>
     <SectionWrap>
-        <StyledButton variant="contained">
+        <StyledButton variant="contained" href="https://www.kjubo.com">
             Hello World
         </StyledButton>
     </SectionWrap>
