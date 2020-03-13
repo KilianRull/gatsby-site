@@ -6,6 +6,7 @@ const StyledButton = styled(Button)`
     padding: 16px 32px;
     min-width: 180px;
     background-color: ${colors.primary};
+    color: ${colors.textLight};
 `
 
 export default StyledButton
